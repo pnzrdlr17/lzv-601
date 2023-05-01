@@ -1,0 +1,19 @@
+.file-upload {
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  padding: 3px;
+}
+
+.file-name-preview {
+  padding: 2px;
+  text-align: center;
+  font-size: small;
+  margin: 1rem;
+}
+
+button {
+  background-color: blue;
+}

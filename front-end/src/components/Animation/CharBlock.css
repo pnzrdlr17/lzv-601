@@ -1,0 +1,70 @@
+.char-item {
+  border-radius: 5px;
+  border: 1.7px solid #22333b;
+  margin: 4.3px;
+  padding: 2.5px;
+  font-size: 2.2vw;
+  height: 3.7vw;
+  width: 3.7vw;
+  display: block;
+  text-align: center;
+}
+
+.unv {
+  border: 1.7px solid gray;
+  color: gray;
+}
+
+.curr {
+  border: 1.7px solid red;
+  color: red;
+}
+
+.vis {
+  border: 1.7px solid #22333b;
+  color: black;
+}
+
+.inWindow {
+  border: 1.7px solid #22333b;
+  color: aqua;
+}
+
+.match {
+  border: 1.7px solid orange;
+  color: orange;
+}
+
+.curr-match {
+  border: 1.7px solid brown;
+  color: brown;
+}
+
+.unique {
+  border: 1.7px solid green;
+  color: green;
+}
+
+.code-item-circle {
+  border-radius: 50%;
+  border: 1.7px solid #22333b;
+  margin: 4.3px;
+  padding: 2.5px;
+  font-size: 2.2vw;
+  height: 3.7vw;
+  width: 3.7vw;
+  display: block;
+  text-align: center;
+}
+
+.code-item-block {
+  border-radius: 5px;
+  border: 1.7px solid #22333b;
+  margin: 4.3px;
+  padding: 2.5px;
+  font-size: 2.2vw;
+  height: 3.7vw;
+  min-width: 3.7vw;
+  display: block;
+  text-align: center;
+}

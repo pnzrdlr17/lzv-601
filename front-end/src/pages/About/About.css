@@ -1,0 +1,49 @@
+.bg {
+  align-items: center;
+  width: 93%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: justify;
+  color: #f4f3ee;
+  font-size: large;
+}
+
+.this-h1 {
+  font-weight: 1250;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+.cardx {
+  max-width: 23%;
+  /* max-height: 10rem; */
+  background-color: #f4f3ee;
+  border: 1px solid #f4f3ee;
+  color: #22333b;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1%;
+  margin: 0.6%;
+  text-align: start;
+  font-size: medium;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+.a-tag {
+  color: #9f3a38;
+}

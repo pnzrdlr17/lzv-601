@@ -1,0 +1,32 @@
+.vis-contain {
+  min-height: 73vh;
+}
+
+.btnHolder {
+  text-align: center;
+}
+
+.text-contain,
+.code-contain {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-span1 {
+  font-weight: 200;
+  font-size: larger;
+  width: 90%;
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+.v-span2 {
+  display: none;
+  font-weight: 200;
+  font-size: larger;
+  width: 90%;
+  margin-left: 1rem;
+  text-decoration: underline;
+}
