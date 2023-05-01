@@ -61,7 +61,7 @@ mongoose
     `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.uhitmnp.mongodb.net/${process.env.DB_NAME}`
   )
   .then(() => {
-    app.listen(4000);
+    app.listen(process.env.PORT || 4000);
     console.log('Connected to DB');
   })
   .catch((err) => {

@@ -5,18 +5,6 @@ const jwt = require('jsonwebtoken');
 const { validationResult } = require('express-validator');
 const User = require('../models/user');
 
-const getUsers = async (req, res, next) => {
-  let users;
-  try {
-    users = await User.find({}, '-password'); //excluding password
-  } catch (error) {
-    return next(
-      new HttpError("Couldn't fetch the users, please try again!", 500)
-    );
-  }
-  res.json({ users: users.map((u) => u.toObject({ getters: true })) });
-};
-
 const signup = async (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
@@ -122,6 +110,5 @@ const login = async (req, res, next) => {
   });
 };
 
-exports.getUsers = getUsers;
 exports.signup = signup;
 exports.login = login;
