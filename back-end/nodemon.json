@@ -1,8 +1,0 @@
-{
-  "env": {
-    "DB_USER": "pnzrdlr17",
-    "DB_PASSWORD": "veI4vrUQr7uWwrDl",
-    "DB_NAME": "mock",
-    "JWT_KEY": "SUUUUUIIIII!"
-  }
-}
